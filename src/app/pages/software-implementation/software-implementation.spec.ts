@@ -26,7 +26,7 @@ describe('SoftwareImplementation', () => {
           TITLE_PREFIX: 'End-to-End ',
           TITLE_HIGHLIGHT: 'Software Implementation',
           TITLE_SUFFIX: ' for Growing Enterprises',
-          DESCRIPTION: 'Seamlessly transition to PisiCloud.',
+          DESCRIPTION: 'Seamlessly transition to PISICloud.',
           CTA_PRIMARY: 'Consult Implementation',
           CTA_SECONDARY: 'Explore Methodology',
           IMAGE_ALT: 'Hero Image Alt',
@@ -89,7 +89,7 @@ describe('SoftwareImplementation', () => {
         },
         GUARANTEES: {
           TITLE_PREFIX: 'Why Enterprises Choose ',
-          TITLE_HIGHLIGHT: 'PisiCloud Implementation',
+          TITLE_HIGHLIGHT: 'PISICloud Implementation',
           TITLE_SUFFIX: '',
           DESCRIPTION: 'We combine decades of HR domain expertise.',
           ITEMS: {

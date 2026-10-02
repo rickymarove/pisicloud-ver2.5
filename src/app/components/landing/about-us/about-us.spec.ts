@@ -45,7 +45,7 @@ describe('AboutUsComponent', () => {
 
   it('should render the main heading text correctly', () => {
     const compiled = fixture.nativeElement as HTMLElement;
-    const heading = compiled.querySelector('h1');
+    const heading = compiled.querySelector('h2');
     expect(heading?.textContent).toContain('A unified architecture for modern workforce management.');
   });
 

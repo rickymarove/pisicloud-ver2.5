@@ -5,7 +5,7 @@ import {
   bootstrapEnvelopeFill,
   bootstrapLink45deg,
   bootstrapTelephoneFill,
-  bootstrapChatDotsFill,
+  bootstrapWhatsapp,
   bootstrapClockFill,
   bootstrapGeoAltFill,
 } from '@ng-icons/bootstrap-icons';
@@ -19,7 +19,7 @@ import { tablerArrowUpRight } from '@ng-icons/tabler-icons';
       bootstrapEnvelopeFill,
       bootstrapLink45deg,
       bootstrapTelephoneFill,
-      bootstrapChatDotsFill,
+      bootstrapWhatsapp,
       bootstrapClockFill,
       bootstrapGeoAltFill,
       tablerArrowUpRight,

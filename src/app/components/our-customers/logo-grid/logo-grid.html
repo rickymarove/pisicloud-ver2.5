@@ -32,42 +32,21 @@
         aria-label="Client company logos"
       >
         @for (logo of allLogos; track logo.id) {
-          @if (logo.website) {
-            <a
-              [href]="logo.website"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="group relative flex h-28 sm:h-32 items-center justify-center rounded-2xl border border-slate-200/80 bg-white p-5 sm:p-6 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:border-[#066b5b]/40 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#066b5b] focus-visible:ring-offset-2 select-none"
-              role="listitem"
-              [attr.aria-label]="logo.name || logo.alt"
-            >
-              <img
-                [ngSrc]="logo.src"
-                [alt]="logo.alt"
-                [width]="logo.width"
-                [height]="logo.height"
-                draggable="false"
-                (dragstart)="$event.preventDefault()"
-                class="max-h-12 sm:max-h-14 max-w-[82%] w-auto h-auto object-contain grayscale-0 opacity-100 md:grayscale md:opacity-75 transition-all duration-300 group-hover:scale-105 group-hover:grayscale-0 group-hover:opacity-100 select-none [user-drag:none] [-webkit-user-drag:none]"
-              />
-            </a>
-          } @else {
-            <div
-              class="group relative flex h-28 sm:h-32 items-center justify-center rounded-2xl border border-slate-200/80 bg-white p-5 sm:p-6 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:border-[#066b5b]/40 hover:shadow-md select-none cursor-default"
-              role="listitem"
-              [attr.aria-label]="logo.name || logo.alt"
-            >
-              <img
-                [ngSrc]="logo.src"
-                [alt]="logo.alt"
-                [width]="logo.width"
-                [height]="logo.height"
-                draggable="false"
-                (dragstart)="$event.preventDefault()"
-                class="max-h-12 sm:max-h-14 max-w-[82%] w-auto h-auto object-contain grayscale-0 opacity-100 md:grayscale md:opacity-75 transition-all duration-300 group-hover:scale-105 group-hover:grayscale-0 group-hover:opacity-100 select-none [user-drag:none] [-webkit-user-drag:none]"
-              />
-            </div>
-          }
+          <div
+            class="group relative flex h-28 sm:h-32 items-center justify-center rounded-2xl border border-slate-200/80 bg-white p-5 sm:p-6 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:border-[#066b5b]/40 hover:shadow-md select-none cursor-default"
+            role="listitem"
+            [attr.aria-label]="logo.name || logo.alt"
+          >
+            <img
+              [ngSrc]="logo.src"
+              [alt]="logo.alt"
+              [width]="logo.width"
+              [height]="logo.height"
+              draggable="false"
+              (dragstart)="$event.preventDefault()"
+              class="max-h-12 sm:max-h-14 max-w-[82%] w-auto h-auto object-contain grayscale-0 opacity-100 md:grayscale md:opacity-75 transition-all duration-300 group-hover:scale-105 group-hover:grayscale-0 group-hover:opacity-100 select-none [user-drag:none] [-webkit-user-drag:none]"
+            />
+          </div>
         }
       </div>
     </div>

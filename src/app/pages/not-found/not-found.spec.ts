@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { provideRouter } from '@angular/router';
 import { provideTranslateService } from '@ngx-translate/core';
-import { StrategyImplementation } from './strategy-implementation';
+import { NotFound } from './not-found';
 
-describe('StrategyImplementation', () => {
-  let component: StrategyImplementation;
-  let fixture: ComponentFixture<StrategyImplementation>;
+describe('NotFound', () => {
+  let component: NotFound;
+  let fixture: ComponentFixture<NotFound>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [StrategyImplementation],
+      imports: [NotFound],
       providers: [provideRouter([]), provideTranslateService()],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(StrategyImplementation);
+    fixture = TestBed.createComponent(NotFound);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

@@ -17,10 +17,10 @@
       </h2>
     </div>
 
-    <!-- Stepper Navigation Ribbon (Narrower than the main card: max-w-3xl) -->
-    <div class="max-w-4xl mx-auto mb-8 sm:mb-10">
+    <!-- Stepper Navigation Ribbon (Responsive smooth-scrolling pills on mobile, distributed row on desktop) -->
+    <div class="max-w-4xl mx-auto mb-8 sm:mb-10 px-1 sm:px-0">
       <div
-        class="flex items-center gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-2xl bg-white border border-[#dce6df] shadow-2xs overflow-x-auto no-scrollbar"
+        class="flex items-center gap-1.5 sm:gap-2 p-1.5 sm:p-2 rounded-2xl bg-white border border-[#dce6df] shadow-2xs overflow-x-auto no-scrollbar scroll-smooth snap-x snap-mandatory"
         role="tablist"
         aria-label="Roadmap Phase Selection"
       >
@@ -34,7 +34,7 @@
             [attr.aria-controls]="'roadmap-panel-' + i"
             (click)="setActiveStep(i)"
             (keydown)="onKeydown($event, i)"
-            class="flex-1 min-w-[130px] sm:min-w-0 py-2.5! px-3! sm:px-4! rounded-xl! text-center! transition-all! duration-200! cursor-pointer! h-auto! focus-visible:ring-2! focus-visible:ring-[#066b5b]! focus-visible:outline-none! flex! items-center! justify-center!"
+            class="shrink-0! md:shrink! md:flex-1! py-2.5! px-3.5! sm:px-4! rounded-xl! text-center! transition-all! duration-200! cursor-pointer! h-auto! focus-visible:ring-2! focus-visible:ring-[#066b5b]! focus-visible:outline-none! whitespace-nowrap! snap-center"
             [class.bg-[#066b5b]!]="activeIndex() === i"
             [class.text-white!]="activeIndex() === i"
             [class.shadow-xs!]="activeIndex() === i"
@@ -42,7 +42,7 @@
             [class.hover:text-[#191c1b]!]="activeIndex() !== i"
             [class.hover:bg-[#f4fcf7]!]="activeIndex() !== i"
           >
-            <span class="text-xs sm:text-sm font-semibold block truncate">
+            <span class="text-xs sm:text-sm font-semibold tracking-tight inline-block">
               {{ step.number }}. {{ step.translationKey + '.TITLE' | translate }}
             </span>
           </button>
@@ -59,13 +59,13 @@
       (mouseleave)="resumeAutoPlay()"
       (focusin)="pauseAutoPlay()"
       (focusout)="resumeAutoPlay()"
-      class="max-w-5xl mx-auto rounded-3xl bg-white border border-[#dce6df] p-7 sm:p-9 lg:p-12 shadow-xs relative transition-all duration-300"
+      class="max-w-5xl mx-auto rounded-3xl bg-white border border-[#dce6df] p-5 sm:p-8 lg:p-12 shadow-xs relative transition-all duration-300"
     >
       <!-- Continuous Real-time Progress Bar (Indicates continuous autoplay progress) -->
       <mat-progress-bar
         mode="determinate"
         [value]="progress()"
-        class="rounded-full! overflow-hidden! h-1.5! mb-8! bg-slate-100!"
+        class="rounded-full! overflow-hidden! h-1.5! mb-6 sm:mb-8! bg-slate-100!"
         [attr.aria-label]="
           (currentStep().translationKey + '.TITLE' | translate) + ' timer progress'
         "
@@ -75,14 +75,14 @@
       <div>
         <!-- Title directly at top (NO badge, NO subtitle) -->
         <h3
-          class="text-2xl sm:text-3xl lg:text-[32px] font-bold text-[#191c1b] tracking-tight leading-tight mb-4"
+          class="text-xl sm:text-2xl lg:text-[32px] font-bold text-[#191c1b] tracking-tight leading-tight mb-3 sm:mb-4"
         >
           <span class="text-[#066b5b]">{{ currentStep().number }}. </span>
           <span>{{ currentStep().translationKey + '.TITLE' | translate }}</span>
         </h3>
 
         <!-- Intro Description -->
-        <p class="text-sm sm:text-base text-slate-600 leading-relaxed font-normal mb-6">
+        <p class="text-xs sm:text-sm md:text-base text-slate-600 leading-relaxed font-normal mb-6">
           {{ currentStep().translationKey + '.INTRO' | translate }}
         </p>
 
@@ -119,5 +119,6 @@
         }
       </div>
     </div>
+
   </div>
 </section>

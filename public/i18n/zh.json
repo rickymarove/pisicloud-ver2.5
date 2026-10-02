@@ -877,7 +877,7 @@
       "TITLE_HIGHLIGHT": "重新实施",
       "DESCRIPTION": "通过量身定制的培训计划与专业重新实施服务，赋能团队并最大化您的软件投资回报。打造自信高效的团队，消除业务流程瓶颈，确保全企业无缝顺畅落地系统。",
       "CTA_PRIMARY": "预约实施咨询",
-      "IMAGE_ALT": "PisiCloud 企业软件培训与系统重新实施互动研讨会"
+      "IMAGE_ALT": "PISICloud 企业软件培训与系统重新实施互动研讨会"
     },
     "OFFERINGS": {
       "EYEBROW": "核心服务项目",
@@ -943,44 +943,48 @@
     }
   },
   "SEO": {
-    "DEFAULT_TITLE": "PisiCloud - 现代化云端人力资源与薪资管理系统",
+    "DEFAULT_TITLE": "PISICloud - 现代化云端人力资源与薪资管理系统",
     "DEFAULT_DESCRIPTION": "基于云端的考勤、薪酬和人力资源软件，助力企业实现安全、便捷、高效的员工管理。",
     "PAGES": {
       "LANDING": {
-        "TITLE": "PisiCloud - 高效的云端人力资源与薪资管理软件",
+        "TITLE": "PISICloud - 高效的云端人力资源与薪资管理软件",
         "DESCRIPTION": "基于云端的考勤、薪酬和人力资源软件，助力企业实现安全、便捷、高效的员工管理。"
       },
       "ABOUT_PISI": {
-        "TITLE": "关于 PISI - PisiCloud 云端人力资源解决方案",
+        "TITLE": "关于 PISI - PISICloud 云端人力资源解决方案",
         "DESCRIPTION": "了解 PT. Pisi Mulia Informatika 及其致力于提供创新、可靠的人力资源与薪资云服务的企业愿景。"
       },
       "OUR_CUSTOMERS": {
-        "TITLE": "客户案例 - 众多领军企业的信赖之选 | PisiCloud",
-        "DESCRIPTION": "了解各行业知名企业如何借助 PisiCloud 优化人力资源与薪资流程。"
+        "TITLE": "客户案例 - 众多领军企业的信赖之选 | PISICloud",
+        "DESCRIPTION": "了解各行业知名企业如何借助 PISICloud 优化人力资源与薪资流程。"
       },
       "STRATEGY_IMPLEMENTATION": {
-        "TITLE": "实施策略 - 平稳高效的系统上线方案 | PisiCloud",
+        "TITLE": "实施策略 - 平稳高效的系统上线方案 | PISICloud",
         "DESCRIPTION": "探索我们经过实践检验的人力资源软件部署、定制和培训方法论。"
       },
       "SOFTWARE_IMPLEMENTATION": {
-        "TITLE": "软件实施 - 平稳高效的 HR 与薪酬系统落地 | PisiCloud",
-        "DESCRIPTION": "PisiCloud 提供全方位企业级软件实施服务。保障零数据丢失、生物识别设备集成及并行薪资精准校验。"
+        "TITLE": "软件实施 - 平稳高效的 HR 与薪酬系统落地 | PISICloud",
+        "DESCRIPTION": "PISICloud 提供全方位企业级软件实施服务。保障零数据丢失、生物识别设备集成及并行薪资精准校验。"
       },
       "CONTACT_US": {
-        "TITLE": "联系我们 - 预约演示与业务咨询 | PisiCloud",
-        "DESCRIPTION": "随时联系 PisiCloud 销售与技术支持团队，预约产品演示或获取报价方案。"
+        "TITLE": "联系我们 - 预约演示与业务咨询 | PISICloud",
+        "DESCRIPTION": "随时联系 PISICloud 销售与技术支持团队，预约产品演示或获取报价方案。"
       },
       "FEATURE": {
-        "TITLE": "功能概览 - 全方位一体化人力资源管理系统 | PisiCloud",
-        "DESCRIPTION": "探索考勤管理、薪酬核算、请假审批、加班管理、招聘流程等 PisiCloud 全套核心功能。"
+        "TITLE": "功能概览 - 全方位一体化人力资源管理系统 | PISICloud",
+        "DESCRIPTION": "探索考勤管理、薪酬核算、请假审批、加班管理、招聘流程等 PISICloud 全套核心功能。"
       },
       "TRAINING_IMPLEMENTATION": {
-        "TITLE": "系统培训与重新实施 - PisiCloud",
-        "DESCRIPTION": "PisiCloud 软件培训与重新实施计划，为您的团队提供优化系统性能所需的专业知识与工具，确保持续成功应用。"
+        "TITLE": "系统培训与重新实施 - PISICloud",
+        "DESCRIPTION": "PISICloud 软件培训与重新实施计划，为您的团队提供优化系统性能所需的专业知识与工具，确保持续成功应用。"
       },
       "CUSTOMIZE_MODULE": {
         "TITLE": "定制模块 - 企业专属软件定制开发服务 | PISICloud",
         "DESCRIPTION": "PISICloud 提供专业的定制软件模块开发服务，根据您独特的业务流程量身定制，助力企业持续增长。"
+      },
+      "NOT_FOUND": {
+        "TITLE": "404 - 页面未找到 | PISICloud",
+        "DESCRIPTION": "无法找到您正在寻找的页面。"
       }
     }
   },
@@ -1179,10 +1183,10 @@
       "TITLE_PREFIX": "端到端 ",
       "TITLE_HIGHLIGHT": "企业级软件实施",
       "TITLE_SUFFIX": " 助力业务稳健增长",
-      "DESCRIPTION": "平稳摆脱繁琐的 Excel 表格与过时的旧系统，迁移至 PisiCloud 一体化云端人事与薪酬平台。我们经验丰富的认证实施专家保障数据完整性、零业务中断与专属入职培训。",
+      "DESCRIPTION": "平稳摆脱繁琐的 Excel 表格与过时的旧系统，迁移至 PISICloud 一体化云端人事与薪酬平台。我们经验丰富的认证实施专家保障数据完整性、零业务中断与专属入职培训。",
       "CTA_PRIMARY": "咨询实施方案",
       "CTA_SECONDARY": "了解实施方法",
-      "IMAGE_ALT": "PisiCloud 软件实施与云端人事部署仪表板插图"
+      "IMAGE_ALT": "PISICloud 软件实施与云端人事部署仪表板插图"
     },
     "PILLARS": {
       "TITLE_PREFIX": "全流程专属服务，保障 ",
@@ -1242,7 +1246,7 @@
     },
     "GUARANTEES": {
       "TITLE_PREFIX": "为什么企业选择 ",
-      "TITLE_HIGHLIGHT": "PisiCloud 实施团队",
+      "TITLE_HIGHLIGHT": "PISICloud 实施团队",
       "TITLE_SUFFIX": "",
       "DESCRIPTION": "我们将数十年的 HR 领域经验与现代敏捷软件工程深度融合，让您的系统转型轻松无忧。",
       "ITEMS": {
@@ -1273,5 +1277,14 @@
         "CTA_BUTTON": "预约专属实施顾问"
       }
     }
+  },
+  "NOT_FOUND": {
+    "TITLE_PREFIX": "页面",
+    "TITLE_HIGHLIGHT": "未",
+    "TITLE_SUFFIX": "找到。",
+    "DESCRIPTION": "我们似乎找不到您正在寻找的页面。",
+    "HOME_BUTTON": "首页",
+    "CONTACT_BUTTON": "联系我们",
+    "LOGO_ALT": "PISICloud 标志"
   }
 }

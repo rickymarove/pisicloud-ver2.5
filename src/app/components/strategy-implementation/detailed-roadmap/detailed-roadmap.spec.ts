@@ -94,4 +94,9 @@ describe('DetailedRoadmap', () => {
     const heading = compiled.querySelector('h2#detailed-roadmap-heading');
     expect(heading).toBeTruthy();
   });
+
+  it('should handle scrollToActiveTab safely without errors', () => {
+    expect(() => component.scrollToActiveTab(0)).not.toThrow();
+    expect(() => component.scrollToActiveTab(99)).not.toThrow();
+  });
 });

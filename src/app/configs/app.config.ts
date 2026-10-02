@@ -9,7 +9,7 @@ import {
   withComponentInputBinding,
   withInMemoryScrolling,
 } from '@angular/router';
-import { provideClientHydration } from '@angular/platform-browser';
+import { provideClientHydration, withEventReplay } from '@angular/platform-browser';
 import { provideTranslateService } from '@ngx-translate/core';
 import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
 import { firstValueFrom, of } from 'rxjs';
@@ -29,7 +29,7 @@ export const appConfig: ApplicationConfig = {
         anchorScrolling: 'enabled',
       }),
     ),
-    provideClientHydration(),
+    provideClientHydration(withEventReplay()),
     provideTranslateService({
       fallbackLang: 'en',
       loader: provideTranslateHttpLoader({

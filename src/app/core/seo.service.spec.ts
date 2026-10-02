@@ -33,19 +33,19 @@ describe('SeoService', () => {
 
   it('should update title and meta tags when updateSeo is called', () => {
     service.updateSeo({
-      title: 'Test Title - PisiCloud',
+      title: 'Test Title - PISICloud',
       description: 'Test Meta Description',
       keywords: 'test, hr, payroll',
       url: 'https://pisicloud.com/test',
     });
 
-    expect(titleService.getTitle()).toBe('Test Title - PisiCloud');
+    expect(titleService.getTitle()).toBe('Test Title - PISICloud');
     expect(metaService.getTag("name='description'")?.content).toBe('Test Meta Description');
     expect(metaService.getTag("name='keywords'")?.content).toBe('test, hr, payroll');
-    expect(metaService.getTag("property='og:title'")?.content).toBe('Test Title - PisiCloud');
+    expect(metaService.getTag("property='og:title'")?.content).toBe('Test Title - PISICloud');
     expect(metaService.getTag("property='og:description'")?.content).toBe('Test Meta Description');
     expect(metaService.getTag("property='og:url'")?.content).toBe('https://pisicloud.com/test');
-    expect(metaService.getTag("name='twitter:title'")?.content).toBe('Test Title - PisiCloud');
+    expect(metaService.getTag("name='twitter:title'")?.content).toBe('Test Title - PISICloud');
   });
 
   it('should update document lang attribute', () => {

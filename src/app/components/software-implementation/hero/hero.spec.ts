@@ -26,7 +26,7 @@ describe('SoftwareImplementation Hero', () => {
           TITLE_PREFIX: 'End-to-End ',
           TITLE_HIGHLIGHT: 'Software Implementation',
           TITLE_SUFFIX: ' for Growing Enterprises',
-          DESCRIPTION: 'Seamlessly transition to PisiCloud.',
+          DESCRIPTION: 'Seamlessly transition to PISICloud.',
           CTA_PRIMARY: 'Consult Implementation',
           CTA_SECONDARY: 'Explore Methodology',
           IMAGE_ALT: 'Hero Image Alt',

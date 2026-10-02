@@ -877,7 +877,7 @@
       "TITLE_HIGHLIGHT": "재구축 지원",
       "DESCRIPTION": "맞춤형 교육 프로그램과 전문적인 재구축 지원을 통해 팀의 역량을 강화하고 소프트웨어 투자의 가치를 극대화하세요. 자신감 있는 팀을 구축하고, 운영상의 병목 현상을 해결하며, 조직 전반에 걸쳐 원활한 시스템 도입을 보장합니다.",
       "CTA_PRIMARY": "도입 상담 예약하기",
-      "IMAGE_ALT": "PisiCloud 협업 소프트웨어 교육 및 시스템 재구축 인터랙티브 워크숍"
+      "IMAGE_ALT": "PISICloud 협업 소프트웨어 교육 및 시스템 재구축 인터랙티브 워크숍"
     },
     "OFFERINGS": {
       "EYEBROW": "핵심 지원 프로그램",
@@ -943,44 +943,48 @@
     }
   },
   "SEO": {
-    "DEFAULT_TITLE": "PisiCloud - 현대적인 클라우드 HR 및 급여 관리 시스템",
-    "DEFAULT_DESCRIPTION": "안전하고 간편하며 효율적인 직원 관리를 위한 클라우드 기반 근태, 급여 및 HR 소프트웨어.",
+    "DEFAULT_TITLE": "PISICloud - 현대적인 클라우드 HR 및 급여 관리 시스템",
+    "DEFAULT_DESCRIPTION": "안전하고 간편하며 효율적인 직원 관리를 위한 클라우드 기반 근태, 급여 및 HR 소프트웨어。",
     "PAGES": {
       "LANDING": {
-        "TITLE": "PisiCloud - 스마트한 클라우드 HR 및 급여 관리 솔루션",
-        "DESCRIPTION": "안전하고 간편하며 효율적인 직원 관리를 위한 클라우드 기반 근태, 급여 및 HR 소프트웨어."
+        "TITLE": "PISICloud - 스마트한 클라우드 HR 및 급여 관리 솔루션",
+        "DESCRIPTION": "안전하고 간편하며 효율적인 직원 관리를 위한 클라우드 기반 근태, 급여 및 HR 소프트웨어。"
       },
       "ABOUT_PISI": {
-        "TITLE": "회사 소개 - PisiCloud 클라우드 HR 솔루션",
-        "DESCRIPTION": "혁신적이고 확장 가능한 클라우드 인사 급여 솔루션을 제공하는 PT. Pisi Mulia Informatika를 소개합니다."
+        "TITLE": "회사 소개 - PISICloud 클라우드 HR 솔루션",
+        "DESCRIPTION": "혁신적이고 확장 가능한 클라우드 인사 급여 솔루션을 제공하는 PT. Pisi Mulia Informatika를 소개합니다。"
       },
       "OUR_CUSTOMERS": {
-        "TITLE": "고객사 소개 - 유수 기업이 신뢰하는 PisiCloud",
-        "DESCRIPTION": "다양한 업계의 주요 기업들이 PisiCloud를 통해 HR 및 급여 관리를 혁신한 사례를 확인해보세요."
+        "TITLE": "고객사 소개 - 유수 기업이 신뢰하는 PISICloud",
+        "DESCRIPTION": "다양한 업계의 주요 기업들이 PISICloud를 통해 HR 및 급여 관리를 혁신한 사례를 확인해보세요。"
       },
       "STRATEGY_IMPLEMENTATION": {
-        "TITLE": "도입 전략 - 원활한 HR 시스템 구축 지원 | PisiCloud",
-        "DESCRIPTION": "성공적인 HR 및 급여 소프트웨어 구축을 위한 검증된 도입 방법론을 알아보세요."
+        "TITLE": "도입 전략 - 원활한 HR 시스템 구축 지원 | PISICloud",
+        "DESCRIPTION": "성공적인 HR 및 급여 소프트웨어 구축을 위한 검증된 도입 방법론을 알아보세요。"
       },
       "SOFTWARE_IMPLEMENTATION": {
-        "TITLE": "소프트웨어 구축 및 도입 지원 - 원활한 클라우드 HR 전환 | PisiCloud",
-        "DESCRIPTION": "PisiCloud 인사 및 급여 시스템을 위한 엔드투엔드 구축 서비스. 데이터 손실 제로 보장, 생체인식 장비 연동, 병행 급여 검증 제공."
+        "TITLE": "소프트웨어 구축 및 도입 지원 - 원활한 클라우드 HR 전환 | PISICloud",
+        "DESCRIPTION": "PISICloud 인사 및 급여 시스템을 위한 엔드투엔드 구축 서비스. 데이터 손실 제로 보장, 생체인식 장비 연동, 병행 급여 검증 제공。"
       },
       "CONTACT_US": {
-        "TITLE": "문의하기 - 데모 신청 및 도입 상담 | PisiCloud",
-        "DESCRIPTION": "PisiCloud 영업 및 지원팀에 문의하여 데모 예약 및 맞춤형 솔루션 견적을 받아보세요."
+        "TITLE": "문의하기 - 데모 신청 및 도입 상담 | PISICloud",
+        "DESCRIPTION": "PISICloud 영업 및 지원팀에 문의하여 데모 예약 및 맞춤형 솔루션 견적을 받아보세요。"
       },
       "FEATURE": {
-        "TITLE": "기능 소개 - 올인원 클라우드 인사 관리 시스템 | PisiCloud",
-        "DESCRIPTION": "근태 관리, 급여 계산, 휴가, 연장근무, 세무, 채용 등 PisiCloud의 강력한 기능들을 살펴보세요."
+        "TITLE": "기능 소개 - 올인원 클라우드 인사 관리 시스템 | PISICloud",
+        "DESCRIPTION": "근태 관리, 급여 계산, 휴가, 연장근무, 세무, 채용 등 PISICloud의 강력한 기능들을 살펴보세요。"
       },
       "TRAINING_IMPLEMENTATION": {
-        "TITLE": "소프트웨어 교육 및 재구축 지원 - PisiCloud",
-        "DESCRIPTION": "소프트웨어 성능을 최적화하고 조직 내 지속적인 성공을 보장하기 위한 PisiCloud 교육 및 재구축(Re-Implementation) 프로그램."
+        "TITLE": "소프트웨어 교육 및 재구축 지원 - PISICloud",
+        "DESCRIPTION": "소프트웨어 성능을 최적화하고 조직 내 지속적인 성공을 보장하기 위한 PISICloud 교육 및 재구축(Re-Implementation) 프로그램。"
       },
       "CUSTOMIZE_MODULE": {
         "TITLE": "맞춤형 모듈 - 기업 전용 소프트웨어 개발 | PISICloud",
-        "DESCRIPTION": "귀사의 고유한 업무 절차와 성장에 꼭 맞춘 PISICloud의 전문 맞춤형 소프트웨어 모듈 개발 서비스입니다."
+        "DESCRIPTION": "귀사의 고유한 업무 절차와 성장에 꼭 맞춘 PISICloud의 전문 맞춤형 소프트웨어 모듈 개발 서비스입니다。"
+      },
+      "NOT_FOUND": {
+        "TITLE": "404 - 페이지를 찾을 수 없습니다 | PISICloud",
+        "DESCRIPTION": "요청하신 페이지를 찾을 수 없습니다。"
       }
     }
   },
@@ -1179,10 +1183,10 @@
       "TITLE_PREFIX": "성장 기업을 위한 ",
       "TITLE_HIGHLIGHT": "엔드투엔드 소프트웨어 구축",
       "TITLE_SUFFIX": " 솔루션",
-      "DESCRIPTION": "수작업 엑셀과 노후화된 기존 시스템에서 벗어나 PisiCloud의 통합 클라우드 인사·급여 플랫폼으로 원활하게 전환하세요. 공인 구축 전문가가 데이터 무결성 보장, 업무 중단 제로, 맞춤형 온보딩을 지원합니다.",
+      "DESCRIPTION": "수작업 엑셀과 노후화된 기존 시스템에서 벗어나 PISICloud의 통합 클라우드 인사·급여 플랫폼으로 원활하게 전환하세요. 공인 구축 전문가가 데이터 무결성 보장, 업무 중단 제로, 맞춤형 온보딩을 지원합니다.",
       "CTA_PRIMARY": "도입 구축 상담",
       "CTA_SECONDARY": "구축 프로세스 보기",
-      "IMAGE_ALT": "PisiCloud 소프트웨어 구축 및 클라우드 HR 대시보드 일러스트"
+      "IMAGE_ALT": "PISICloud 소프트웨어 구축 및 클라우드 HR 대시보드 일러스트"
     },
     "PILLARS": {
       "TITLE_PREFIX": "완벽한 시스템 안착을 위한 ",
@@ -1242,7 +1246,7 @@
     },
     "GUARANTEES": {
       "TITLE_PREFIX": "기업들이 신뢰하는 ",
-      "TITLE_HIGHLIGHT": "PisiCloud 구축 전문성",
+      "TITLE_HIGHLIGHT": "PISICloud 구축 전문성",
       "TITLE_SUFFIX": "",
       "DESCRIPTION": "수십 년간 축적된 인사 관리 도메인 지식과 최신 소프트웨어 엔지니어링을 결합하여 부담 없는 시스템 전환을 약속합니다.",
       "ITEMS": {
@@ -1273,5 +1277,14 @@
         "CTA_BUTTON": "전담 구축 전문가와 상담하기"
       }
     }
+  },
+  "NOT_FOUND": {
+    "TITLE_PREFIX": "페이지를 ",
+    "TITLE_HIGHLIGHT": "찾을 수",
+    "TITLE_SUFFIX": " 없습니다.",
+    "DESCRIPTION": "요청하신 페이지를 찾을 수 없습니다.",
+    "HOME_BUTTON": "홈",
+    "CONTACT_BUTTON": "문의하기",
+    "LOGO_ALT": "PISICloud 로고"
   }
 }

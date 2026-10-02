@@ -1,0 +1,53 @@
+<section
+  class="min-h-[calc(100vh-18rem)] flex flex-col items-center justify-center px-4 py-16 sm:py-24 bg-white text-center"
+  aria-labelledby="not-found-title"
+>
+  <div class="max-w-2xl mx-auto flex flex-col items-center">
+    <!-- Logo -->
+    <div class="mb-8 sm:mb-10 flex justify-center">
+      <img
+        ngSrc="/pisi-favicon.svg"
+        [alt]="'NOT_FOUND.LOGO_ALT' | translate"
+        width="88"
+        height="100"
+        priority
+        draggable="false"
+        (dragstart)="$event.preventDefault()"
+        class="h-20 sm:h-24 w-auto object-contain select-none"
+      />
+    </div>
+
+    <!-- Two-Tone Heading -->
+    <h1
+      id="not-found-title"
+      class="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#191c1b] tracking-tight leading-tight"
+    >
+      <span>{{ 'NOT_FOUND.TITLE_PREFIX' | translate }}</span>
+      <span class="text-[#066b5b]">{{ 'NOT_FOUND.TITLE_HIGHLIGHT' | translate }}</span>
+      <span>{{ 'NOT_FOUND.TITLE_SUFFIX' | translate }}</span>
+    </h1>
+
+    <!-- Subtitle -->
+    <p class="text-base sm:text-lg lg:text-xl text-slate-600 max-w-xl mx-auto mt-4 sm:mt-6 leading-relaxed">
+      {{ 'NOT_FOUND.DESCRIPTION' | translate }}
+    </p>
+
+    <!-- CTAs -->
+    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8 sm:mt-10 w-full sm:w-auto">
+      <a
+        mat-flat-button
+        routerLink="/"
+        class="rounded-full! bg-[#066b5b]! hover:bg-[#055145]! text-white! px-8! py-3.5! h-auto! font-medium! text-base! shadow-xs! hover:shadow-md! active:scale-95! transition-all! duration-200! min-w-35 w-full sm:w-auto text-center focus-visible:ring-2 focus-visible:ring-[#066b60] focus-visible:ring-offset-2"
+      >
+        {{ 'NOT_FOUND.HOME_BUTTON' | translate }}
+      </a>
+      <a
+        mat-stroked-button
+        routerLink="/contact-us"
+        class="rounded-full! border-[#066b5b]! text-[#066b5b]! hover:bg-[#066b5b]/10! bg-white! px-8! py-3.5! h-auto! font-medium! text-base! shadow-xs! hover:shadow-md! active:scale-95! transition-all! duration-200! min-w-35 w-full sm:w-auto text-center focus-visible:ring-2 focus-visible:ring-[#066b60] focus-visible:ring-offset-2"
+      >
+        {{ 'NOT_FOUND.CONTACT_BUTTON' | translate }}
+      </a>
+    </div>
+  </div>
+</section>

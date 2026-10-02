@@ -877,7 +877,7 @@
       "TITLE_HIGHLIGHT": "Re-Implementation",
       "DESCRIPTION": "Empower your workforce and maximize your software investment with tailored training programs and expert system re-implementation. Build confident teams, eliminate operational bottlenecks, and ensure seamless system adoption across your entire organization.",
       "CTA_PRIMARY": "Schedule a Consultation",
-      "IMAGE_ALT": "PisiCloud collaborative software training and system re-implementation interactive workshop"
+      "IMAGE_ALT": "PISICloud collaborative software training and system re-implementation interactive workshop"
     },
     "OFFERINGS": {
       "EYEBROW": "Core Programs",
@@ -951,36 +951,40 @@
         "DESCRIPTION": "Cloud-based Attendance, Payroll, and HR software for secure, easy, and efficient employee management."
       },
       "ABOUT_PISI": {
-        "TITLE": "About PISI - PisiCloud Cloud HR Solutions",
+        "TITLE": "About PISI - PISICloud Cloud HR Solutions",
         "DESCRIPTION": "Learn about PT. Pisi Mulia Informatika and our mission to provide innovative, scalable cloud HR & payroll solutions."
       },
       "OUR_CUSTOMERS": {
-        "TITLE": "Our Customers - Trusted by Leading Companies | PisiCloud",
-        "DESCRIPTION": "See how leading enterprises across industries streamline HR and payroll operations with PisiCloud."
+        "TITLE": "Our Customers - Trusted by Leading Companies | PISICloud",
+        "DESCRIPTION": "See how leading enterprises across industries streamline HR and payroll operations with PISICloud."
       },
       "STRATEGY_IMPLEMENTATION": {
-        "TITLE": "Strategy Implementation - Smooth HR Rollout | PisiCloud",
+        "TITLE": "Strategy Implementation - Smooth HR Rollout | PISICloud",
         "DESCRIPTION": "Discover our proven methodology for seamless HR & payroll software deployment, customization, and training."
       },
       "SOFTWARE_IMPLEMENTATION": {
-        "TITLE": "Software Implementation - Smooth HR & Payroll Rollout | PisiCloud",
-        "DESCRIPTION": "End-to-end enterprise software implementation services for PisiCloud HR. Guaranteed zero data loss, biometric integration, and parallel payroll testing."
+        "TITLE": "Software Implementation - Smooth HR & Payroll Rollout | PISICloud",
+        "DESCRIPTION": "End-to-end enterprise software implementation services for PISICloud HR. Guaranteed zero data loss, biometric integration, and parallel payroll testing."
       },
       "CONTACT_US": {
-        "TITLE": "Contact Us - Get in Touch with PisiCloud",
-        "DESCRIPTION": "Contact PisiCloud sales and support team. Book a demo, request a quote, or ask questions about our HR system."
+        "TITLE": "Contact Us - Get in Touch with PISICloud",
+        "DESCRIPTION": "Contact PISICloud sales and support team. Book a demo, request a quote, or ask questions about our HR system."
       },
       "FEATURE": {
-        "TITLE": "Features - Comprehensive HR Software Suite | PisiCloud",
-        "DESCRIPTION": "Explore all PisiCloud HR features including Attendance, Payroll, Leave Management, Recruitment, and Tax."
+        "TITLE": "Features - Comprehensive HR Software Suite | PISICloud",
+        "DESCRIPTION": "Explore all PISICloud HR features including Attendance, Payroll, Leave Management, Recruitment, and Tax."
       },
       "TRAINING_IMPLEMENTATION": {
-        "TITLE": "Training & Re-Implementation - PisiCloud",
+        "TITLE": "Training & Re-Implementation - PISICloud",
         "DESCRIPTION": "Software Training & Re-Implementation Program designed to provide you with the tools, resources, and knowledge needed to optimize software performance."
       },
       "CUSTOMIZE_MODULE": {
         "TITLE": "Custom Module - Tailored Software Solutions | PISICloud",
         "DESCRIPTION": "Specialized software module development services tailored to your unique enterprise requirements and continuous business growth."
+      },
+      "NOT_FOUND": {
+        "TITLE": "404 - Page Not Found | PISICloud",
+        "DESCRIPTION": "The page you are looking for could not be found."
       }
     }
   },
@@ -1060,7 +1064,7 @@
   "STRATEGY_IMPLEMENTATION": {
     "HERO": {
       "TITLE_PREFIX": "Implementation Strategy of ",
-      "TITLE_HIGHLIGHT": "PisiCloud",
+      "TITLE_HIGHLIGHT": "PISICloud",
       "DESCRIPTION": "ERP implementation requires seamless cross-divisional coordination and high discipline. PISICloud delivers a proven, structured methodology to guide your organization's transition from manual workflows to a fully integrated ecosystem.",
       "CTA_CONSULT": "Consult Implementation",
       "CTA_ROADMAP": "Explore Roadmap",
@@ -1179,10 +1183,10 @@
       "TITLE_PREFIX": "End-to-End ",
       "TITLE_HIGHLIGHT": "Software Implementation",
       "TITLE_SUFFIX": " for Growing Enterprises",
-      "DESCRIPTION": "Seamlessly transition from fragmented spreadsheets and legacy systems to PisiCloud's unified HR and payroll platform. Our certified implementation specialists deliver guaranteed data integrity, zero business interruption, and tailored system onboarding.",
+      "DESCRIPTION": "Seamlessly transition from fragmented spreadsheets and legacy systems to PISICloud's unified HR and payroll platform. Our certified implementation specialists deliver guaranteed data integrity, zero business interruption, and tailored system onboarding.",
       "CTA_PRIMARY": "Consult Implementation",
       "CTA_SECONDARY": "Explore Methodology",
-      "IMAGE_ALT": "PisiCloud software implementation and cloud HR deployment dashboard illustration"
+      "IMAGE_ALT": "PISICloud software implementation and cloud HR deployment dashboard illustration"
     },
     "PILLARS": {
       "TITLE_PREFIX": "Comprehensive Services for ",
@@ -1242,7 +1246,7 @@
     },
     "GUARANTEES": {
       "TITLE_PREFIX": "Why Enterprises Choose ",
-      "TITLE_HIGHLIGHT": "PisiCloud Implementation",
+      "TITLE_HIGHLIGHT": "PISICloud Implementation",
       "TITLE_SUFFIX": "",
       "DESCRIPTION": "We combine decades of HR domain expertise with modern software engineering to make your system transition effortless.",
       "ITEMS": {
@@ -1273,5 +1277,14 @@
         "CTA_BUTTON": "Talk to an Implementation Specialist"
       }
     }
+  },
+  "NOT_FOUND": {
+    "TITLE_PREFIX": "Page ",
+    "TITLE_HIGHLIGHT": "not",
+    "TITLE_SUFFIX": " found.",
+    "DESCRIPTION": "We can’t seem to find the page you are looking for.",
+    "HOME_BUTTON": "Home",
+    "CONTACT_BUTTON": "Contact Us",
+    "LOGO_ALT": "PISICloud Logo"
   }
 }

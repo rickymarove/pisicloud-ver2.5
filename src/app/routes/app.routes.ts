@@ -66,4 +66,14 @@ export const routes: Routes = [
     data: { seoKey: 'FEATURE_DETAIL' },
     loadComponent: () => import('../pages/feature/feature').then((m) => m.Feature),
   },
+  {
+    path: '404',
+    data: { seoKey: 'NOT_FOUND', hideInterested: true },
+    loadComponent: () => import('../pages/not-found/not-found').then((m) => m.NotFound),
+  },
+  {
+    path: '**',
+    data: { seoKey: 'NOT_FOUND', hideInterested: true },
+    loadComponent: () => import('../pages/not-found/not-found').then((m) => m.NotFound),
+  },
 ];

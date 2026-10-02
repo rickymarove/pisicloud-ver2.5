@@ -24,7 +24,7 @@ describe('SoftwareImplementation Guarantees', () => {
       SOFTWARE_IMPLEMENTATION: {
         GUARANTEES: {
           TITLE_PREFIX: 'Why Enterprises Choose ',
-          TITLE_HIGHLIGHT: 'PisiCloud Implementation',
+          TITLE_HIGHLIGHT: 'PISICloud Implementation',
           TITLE_SUFFIX: '',
           DESCRIPTION: 'We combine decades of HR domain expertise.',
           ITEMS: {

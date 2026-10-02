@@ -1,6 +1,6 @@
-# 🌲 PisiCloud UI Engineering Standards & Anti-AI Slop Guidelines
+# 🌲 PISICloud UI Engineering Standards & Anti-AI Slop Guidelines
 
-You are an expert in **TypeScript**, **Angular (v22+)**, **Angular Material 3 (@angular/material)**, **Tailwind CSS (v4)**, **@ng-icons**, and scalable web application development. You write functional, maintainable, performant, accessible, and pixel-perfect code following the strict design language and architectural standards of **PisiCloud**.
+You are an expert in **TypeScript**, **Angular (v22+)**, **Angular Material 3 (@angular/material)**, **Tailwind CSS (v4)**, **@ng-icons**, and scalable web application development. You write functional, maintainable, performant, accessible, and pixel-perfect code following the strict design language and architectural standards of **PISICloud**.
 
 ---
 
@@ -12,8 +12,8 @@ You are an expert in **TypeScript**, **Angular (v22+)**, **Angular Material 3 (@
 > - **Icon Slop**: Pasting 30-50 lines of messy inline raw `<svg>` with random custom paths instead of using the installed **`@ng-icons`** package (`@ng-icons/bootstrap-icons` & `@ng-icons/tabler-icons`).
 > - **Button & Component Slop**: Re-inventing buttons with raw HTML `<button>` or `<a>` without Angular Material 3 directives (`mat-flat-button`, `mat-stroked-button`, `mat-icon-button`), losing MDC ripple effects and accessibility.
 > - **Badge & Chip Slop**: Adding random decorative badges, chips, or pill tags (e.g. `mat-chip`, `<span class="badge">`, little floating pill headers like "✨ OVERVIEW", "🚀 FEATURE", or "NEW") above headings or inside cards. **RULE: JANGAN PERNAH menggunakan badge / chip kecuali memang benar-benar penting/esensial untuk status data atau status sistem.**
-> - **Hallucination Slop**: Inventing UI patterns that do not exist in PisiCloud (e.g. Material chips/badges, generic SaaS sliders, nested floating glass cards) instead of following the actual clean bento/pill design system.
-> - **Palette Slop**: Using generic AI SaaS colors (indigo/violet/purple gradients) instead of PisiCloud's signature **Pine Green, Teal, Mint, and Charcoal palette**.
+> - **Hallucination Slop**: Inventing UI patterns that do not exist in PISICloud (e.g. Material chips/badges, generic SaaS sliders, nested floating glass cards) instead of following the actual clean bento/pill design system.
+> - **Palette Slop**: Using generic AI SaaS colors (indigo/violet/purple gradients) instead of PISICloud's signature **Pine Green, Teal, Mint, and Charcoal palette**.
 > - **Hardcoded Slop**: Writing raw English or Indonesian strings in templates instead of using **`ngx-translate`** (`{{ 'KEY' | translate }}`).
 > - **Media Slop**: Using plain `<img>` tags without `NgOptimizedImage` (`ngSrc`), causing layout shifts (CLS), or forgetting `draggable="false"` and `select-none` on UI mockups.
 > - **Legacy Angular Slop**: Writing `standalone: true`, `changeDetection: OnPush`, constructor DI, `*ngIf`/`*ngFor`, or `ngClass`/`ngStyle`.
@@ -98,13 +98,13 @@ Always use Tailwind v4's `!` modifier (e.g., `rounded-full!`, `bg-[#066b5b]!`, `
 ### 🚫 BADGE & CHIP RESTRICTION (STRICT POLICY):
 
 - **Jangan pernah menggunakan badge / chip / tag pill dekoratif** (seperti `mat-chip`, `<span class="inline-flex rounded-full bg-emerald-100 ...">✨ OVERVIEW</span>`, badge "NEW", "FEATURE", dll.) di atas heading atau di dalam card, **kecuali memang benar-benar penting dan esensial** untuk merepresentasikan status data atau status sistem yang dinamis.
-- Desain PisiCloud mengutamakan kesederhanaan, tipografi dua warna yang bersih, dan whitespace yang proporsional—bukan hiasan badge/chip kecil yang membuat UI berantakan (cluttered).
+- Desain PISICloud mengutamakan kesederhanaan, tipografi dua warna yang bersih, dan whitespace yang proporsional—bukan hiasan badge/chip kecil yang membuat UI berantakan (cluttered).
 
 ---
 
 ## 🌿 3. PISICLOUD COLOR TOKENS & PALETTE (NEVER DEVIATE)
 
-Use only the established PisiCloud color system. Never invent arbitrary saturated violet, indigo, or random hex codes.
+Use only the established PISICloud color system. Never invent arbitrary saturated violet, indigo, or random hex codes.
 
 | Role                           | Exact Hex / Token                                                             | Usage Context                                                                    |
 | :----------------------------- | :---------------------------------------------------------------------------- | :------------------------------------------------------------------------------- |

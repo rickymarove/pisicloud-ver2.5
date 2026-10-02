@@ -877,7 +877,7 @@
       "TITLE_HIGHLIGHT": "再導入支援",
       "DESCRIPTION": "オーダーメイドの研修と専門家による再導入支援で、チームの能力を高めソフトウェア投資の効果を最大化します。自信を持ったチームを育成し、運用のボトルネックを解消して、組織全体でスムーズなシステム定着を実現します。",
       "CTA_PRIMARY": "導入相談を予約する",
-      "IMAGE_ALT": "PisiCloud 協調型ソフトウェアトレーニング＆再導入インタラクティブワークショップ"
+      "IMAGE_ALT": "PISICloud 協調型ソフトウェアトレーニング＆再導入インタラクティブワークショップ"
     },
     "OFFERINGS": {
       "EYEBROW": "主要プログラム",
@@ -943,44 +943,48 @@
     }
   },
   "SEO": {
-    "DEFAULT_TITLE": "PisiCloud - クラウド型HR・給与計算システム",
+    "DEFAULT_TITLE": "PISICloud - クラウド型HR・給与計算システム",
     "DEFAULT_DESCRIPTION": "勤怠管理、給与計算、人事労務をセキュアかつ効率的に管理するクラウドHRソフトウェア。",
     "PAGES": {
       "LANDING": {
-        "TITLE": "PisiCloud - 最新のクラウド型人事・給与管理ソフトウェア",
+        "TITLE": "PISICloud - 最新のクラウド型人事・給与管理ソフトウェア",
         "DESCRIPTION": "勤怠管理、給与計算、人事労務をセキュアかつ効率的に管理するクラウドHRソフトウェア。"
       },
       "ABOUT_PISI": {
-        "TITLE": "PISIについて - PisiCloud クラウドHRソリューション",
+        "TITLE": "PISIについて - PISICloud クラウドHRソリューション",
         "DESCRIPTION": "PT. Pisi Mulia Informatikaの革新的なクラウドHR＆給与計算システムと企業理念をご紹介します。"
       },
       "OUR_CUSTOMERS": {
-        "TITLE": "導入事例 - 一流企業に選ばれる信頼のシステム | PisiCloud",
-        "DESCRIPTION": "様々な業界の有力企業がPisiCloudを活用して人事・給与業務を効率化した事例をご覧ください。"
+        "TITLE": "導入事例 - 一流企業に選ばれる信頼のシステム | PISICloud",
+        "DESCRIPTION": "様々な業界の有力企業がPISICloudを活用して人事・給与業務を効率化した事例をご覧ください。"
       },
       "STRATEGY_IMPLEMENTATION": {
-        "TITLE": "導入戦略・運用支援 - スムーズなHR導入 | PisiCloud",
+        "TITLE": "導入戦略・運用支援 - スムーズなHR導入 | PISICloud",
         "DESCRIPTION": "実績に裏付けられたHRシステム導入プロセスと運用支援体制について解説します。"
       },
       "SOFTWARE_IMPLEMENTATION": {
-        "TITLE": "ソフトウェア実装・導入支援 - 円滑なクラウド人事移行 | PisiCloud",
-        "DESCRIPTION": "PisiCloud 人事＆給与システムのエンドツーエンド導入サービス。データ消失ゼロ保証、生体認証機器連携、並行給与計算テストを提供。"
+        "TITLE": "ソフトウェア実装・導入支援 - 円滑なクラウド人事移行 | PISICloud",
+        "DESCRIPTION": "PISICloud 人事＆給与システムのエンドツーエンド導入サービス。データ消失ゼロ保証、生体認証機器連携、並行給与計算テストを提供。"
       },
       "CONTACT_US": {
-        "TITLE": "お問い合わせ - デモ予約・導入相談 | PisiCloud",
-        "DESCRIPTION": "PisiCloudへのお問い合わせ・資料請求・デモのお申し込みはこちらから。"
+        "TITLE": "お問い合わせ - デモ予約・導入相談 | PISICloud",
+        "DESCRIPTION": "PISICloudへのお問い合わせ・資料請求・デモのお申し込みはこちらから。"
       },
       "FEATURE": {
-        "TITLE": "機能一覧 - 包括的なクラウド人事システム | PisiCloud",
-        "DESCRIPTION": "勤怠管理、給与計算、休暇申請、残業管理、採用管理などPisiCloudの全機能をご紹介。"
+        "TITLE": "機能一覧 - 包括的なクラウド人事システム | PISICloud",
+        "DESCRIPTION": "勤怠管理、給与計算、休暇申請、残業管理、採用管理などPISICloudの全機能をご紹介。"
       },
       "TRAINING_IMPLEMENTATION": {
-        "TITLE": "トレーニング＆再導入支援 - PisiCloud",
+        "TITLE": "トレーニング＆再導入支援 - PISICloud",
         "DESCRIPTION": "システムのパフォーマンスを最適化し、組織内で継続的な成功を収めるためのソフトウェアトレーニング＆再導入プログラム。"
       },
       "CUSTOMIZE_MODULE": {
         "TITLE": "カスタムモジュール - 企業専用ソフトウェア開発 | PISICloud",
         "DESCRIPTION": "お客様独自の業務フローや将来の成長にフィットする PISICloud の専用ソフトウェアモジュール開発サービス。"
+      },
+      "NOT_FOUND": {
+        "TITLE": "404 - ページが見つかりません | PISICloud",
+        "DESCRIPTION": "お探しのページは見つかりませんでした。"
       }
     }
   },
@@ -1179,10 +1183,10 @@
       "TITLE_PREFIX": "成長企業のための ",
       "TITLE_HIGHLIGHT": "ソフトウェア導入・実装支援",
       "TITLE_SUFFIX": "",
-      "DESCRIPTION": "煩雑なスプレッドシートや旧システムから、PisiCloudの統合型クラウド人事・給与プラットフォームへのスムーズな移行を支援。認定導入スペシャリストによる完全なデータ保全、業務停止ゼロ、専任オンボーディングを提供します。",
+      "DESCRIPTION": "煩雑なスプレッドシートや旧システムから、PISICloudの統合型クラウド人事・給与プラットフォームへのスムーズな移行を支援。認定導入スペシャリストによる完全なデータ保全、業務停止ゼロ、専任オンボーディングを提供します。",
       "CTA_PRIMARY": "導入について相談する",
       "CTA_SECONDARY": "導入プロセスを見る",
-      "IMAGE_ALT": "PisiCloud ソフトウェア導入およびクラウド人事ダッシュボードのイラスト"
+      "IMAGE_ALT": "PISICloud ソフトウェア導入およびクラウド人事ダッシュボードのイラスト"
     },
     "PILLARS": {
       "TITLE_PREFIX": "スムーズな導入を実現する ",
@@ -1242,7 +1246,7 @@
     },
     "GUARANTEES": {
       "TITLE_PREFIX": "多くの企業が選ぶ ",
-      "TITLE_HIGHLIGHT": "PisiCloud 導入支援の強み",
+      "TITLE_HIGHLIGHT": "PISICloud 導入支援の強み",
       "TITLE_SUFFIX": "",
       "DESCRIPTION": "人事分野における長年の知見と最新のクラウド技術を融合し、お客様のシステム移行を確実に成功へ導きます。",
       "ITEMS": {
@@ -1273,5 +1277,14 @@
         "CTA_BUTTON": "導入スペシャリストに相談する"
       }
     }
+  },
+  "NOT_FOUND": {
+    "TITLE_PREFIX": "ページが",
+    "TITLE_HIGHLIGHT": "見つかり",
+    "TITLE_SUFFIX": "ません。",
+    "DESCRIPTION": "お探しのページが見つかりませんでした。",
+    "HOME_BUTTON": "ホーム",
+    "CONTACT_BUTTON": "お問い合わせ",
+    "LOGO_ALT": "PISICloud ロゴ"
   }
 }

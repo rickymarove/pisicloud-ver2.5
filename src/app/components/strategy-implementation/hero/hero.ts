@@ -1,5 +1,6 @@
-import { Component, computed, input, signal } from '@angular/core';
-import { NgOptimizedImage } from '@angular/common';
+import { Component, computed, inject, input, PLATFORM_ID, signal } from '@angular/core';
+import { isPlatformBrowser, NgOptimizedImage } from '@angular/common';
+import { RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { NgIcon, provideIcons } from '@ng-icons/core';
 import {
@@ -7,18 +8,19 @@ import {
   bootstrapCheckCircleFill,
   bootstrapTelephoneFill,
 } from '@ng-icons/bootstrap-icons';
-import { tablerArrowRight } from '@ng-icons/tabler-icons';
+import { tablerArrowRight, tablerArrowDown } from '@ng-icons/tabler-icons';
 import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'strategy-hero, app-strategy-hero, app-hero',
-  imports: [NgOptimizedImage, MatButtonModule, NgIcon, TranslatePipe],
+  imports: [NgOptimizedImage, RouterLink, MatButtonModule, NgIcon, TranslatePipe],
   viewProviders: [
     provideIcons({
       bootstrapShieldCheck,
       bootstrapCheckCircleFill,
       bootstrapTelephoneFill,
       tablerArrowRight,
+      tablerArrowDown,
     }),
   ],
   templateUrl: './hero.html',
@@ -30,6 +32,7 @@ import { TranslatePipe } from '@ngx-translate/core';
   `,
 })
 export class Hero {
+  private readonly platformId = inject(PLATFORM_ID);
   readonly image = input<string | undefined>(undefined);
   readonly hasImageError = signal<boolean>(false);
 
@@ -45,5 +48,14 @@ export class Hero {
 
   onImageError(): void {
     this.hasImageError.set(true);
+  }
+
+  scrollToRoadmap(): void {
+    if (isPlatformBrowser(this.platformId)) {
+      const element = document.getElementById('roadmap');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
   }
 }

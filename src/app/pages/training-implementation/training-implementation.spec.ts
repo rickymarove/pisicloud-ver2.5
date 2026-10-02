@@ -28,7 +28,7 @@ describe('TrainingImplementation', () => {
           DESCRIPTION:
             'Empower your workforce and maximize your software investment with tailored training programs and expert system re-implementation. Build confident teams, eliminate operational bottlenecks, and ensure seamless system adoption across your entire organization.',
           CTA_PRIMARY: 'Schedule a Consultation',
-          IMAGE_ALT: 'PisiCloud software training workshop',
+          IMAGE_ALT: 'PISICloud software training workshop',
         },
         OFFERINGS: {
           EYEBROW: 'Core Programs',

@@ -55,14 +55,13 @@
             draggable="false"
             (dragstart)="$event.preventDefault()"
             class="relative z-10 w-full h-auto object-contain select-none [user-drag:none] [-webkit-user-drag:none]"
-            priority
           />
         </div>
       </div>
 
       <!-- Right Column: Content Text -->
       <div class="flex flex-col justify-center lg:pl-4 xl:pl-8">
-        <h1
+        <h2
           id="about-us-heading"
           class="text-4xl sm:text-5xl lg:text-[54px] xl:text-[58px] font-bold text-[#191c1b] tracking-tight leading-[1.14]"
         >
@@ -70,7 +69,7 @@
           <span class="text-[#066b5b]">{{ 'LANDING.ABOUT_US.TITLE_HIGHLIGHT_1' | translate }}</span> <br />
           {{ 'LANDING.ABOUT_US.TITLE_LINE_2' | translate }} <br />
           <span class="text-[#066b5b]">{{ 'LANDING.ABOUT_US.TITLE_HIGHLIGHT_2' | translate }}</span>{{ 'LANDING.ABOUT_US.TITLE_DOT' | translate }}
-        </h1>
+        </h2>
 
         <p class="mt-6 text-base sm:text-lg lg:text-[19px] text-[#333333] font-normal leading-relaxed max-w-120">
           {{ 'LANDING.ABOUT_US.DESCRIPTION' | translate }}

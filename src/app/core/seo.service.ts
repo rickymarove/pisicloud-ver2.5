@@ -102,7 +102,7 @@ export class SeoService {
     const featureName = this.translate.instant(feature.nameKey);
     const featureDesc = this.translate.instant(feature.hero.descKey);
 
-    const title = `${featureName !== feature.nameKey ? featureName : slug} - PisiCloud HRM`;
+    const title = `${featureName !== feature.nameKey ? featureName : slug} - PISICloud HRM`;
     const description =
       featureDesc !== feature.hero.descKey
         ? featureDesc
@@ -138,7 +138,7 @@ export class SeoService {
       this.meta.updateTag({ name: 'keywords', content: config.keywords });
     }
 
-    this.meta.updateTag({ property: 'og:site_name', content: 'PisiCloud' });
+    this.meta.updateTag({ property: 'og:site_name', content: 'PISICloud' });
     this.meta.updateTag({ property: 'og:title', content: pageTitle });
     this.meta.updateTag({ property: 'og:description', content: pageDescription });
     this.meta.updateTag({ property: 'og:url', content: canonicalUrl });

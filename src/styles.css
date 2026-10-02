@@ -189,3 +189,13 @@ app-root {
   --md-sys-color-surface-container-high: rgb(227 234 230);
   --md-sys-color-surface-container-highest: rgb(222 228 224);
 }
+
+/* Cross-browser scrollbar hiding utility */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

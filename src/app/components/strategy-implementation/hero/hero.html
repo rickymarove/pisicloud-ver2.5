@@ -28,7 +28,7 @@
         <div class="flex flex-wrap items-center gap-3.5 sm:gap-4">
           <a
             mat-flat-button
-            href="#contact"
+            routerLink="/contact-us"
             [attr.aria-label]="'STRATEGY_IMPLEMENTATION.HERO.CTA_CONSULT' | translate"
             class="rounded-full! bg-[#066b5b]! hover:bg-[#055145]! active:bg-[#00382f]! text-white! px-7! py-3.5! h-auto! font-medium! text-sm! sm:text-base! shadow-xs! hover:shadow-md! active:scale-95! transition-all! duration-200! inline-flex items-center justify-center gap-2"
           >
@@ -42,21 +42,22 @@
             </span>
           </a>
 
-          <a
+          <button
+            type="button"
             mat-stroked-button
-            href="#roadmap"
+            (click)="scrollToRoadmap()"
             [attr.aria-label]="'STRATEGY_IMPLEMENTATION.HERO.CTA_ROADMAP' | translate"
-            class="rounded-full! border-[#066b5b]! text-[#066b5b]! hover:bg-[#066b5b]/5! bg-white/70! px-6! py-3.5! h-auto! font-medium! text-sm! sm:text-base! shadow-xs! hover:shadow-md! active:scale-95! transition-all! duration-200! inline-flex items-center justify-center gap-2"
+            class="rounded-full! border-[#066b5b]! text-[#066b5b]! hover:bg-[#066b5b]/5! bg-white/70! px-6! py-3.5! h-auto! font-medium! text-sm! sm:text-base! shadow-xs! hover:shadow-md! active:scale-95! transition-all! duration-200! inline-flex items-center justify-center gap-2 cursor-pointer"
           >
             <span class="flex items-center gap-2">
               <span>{{ 'STRATEGY_IMPLEMENTATION.HERO.CTA_ROADMAP' | translate }}</span>
               <ng-icon
-                name="tablerArrowRight"
+                name="tablerArrowDown"
                 class="text-base text-[#066b5b] shrink-0"
                 aria-hidden="true"
               />
             </span>
-          </a>
+          </button>
         </div>
       </div>
 

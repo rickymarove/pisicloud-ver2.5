@@ -877,7 +877,7 @@
       "TITLE_HIGHLIGHT": "Re-Implementasi",
       "DESCRIPTION": "Tingkatkan kinerja tim dan maksimalkan investasi software Anda melalui program pelatihan terarah serta layanan re-implementasi ahli. Bangun tim yang percaya diri, hilangkan kendala operasional, dan pastikan adopsi sistem yang lancar di seluruh organisasi Anda.",
       "CTA_PRIMARY": "Jadwalkan Konsultasi",
-      "IMAGE_ALT": "Sesi interaktif pelatihan dan re-implementasi software kolaboratif PisiCloud"
+      "IMAGE_ALT": "Sesi interaktif pelatihan dan re-implementasi software kolaboratif PISICloud"
     },
     "OFFERINGS": {
       "EYEBROW": "Program Unggulan",
@@ -943,7 +943,7 @@
     }
   },
   "SEO": {
-    "DEFAULT_TITLE": "PisiCloud - Software HR & Payroll Cloud Modern",
+    "DEFAULT_TITLE": "PISICloud - Software HR & Payroll Cloud Modern",
     "DEFAULT_DESCRIPTION": "Software absensi, penggajian (payroll), dan HR berbasis cloud untuk manajemen karyawan yang aman, mudah, dan efisien.",
     "PAGES": {
       "LANDING": {
@@ -951,36 +951,40 @@
         "DESCRIPTION": "Software absensi, penggajian (payroll), dan HR berbasis cloud untuk manajemen karyawan yang aman, mudah, dan efisien."
       },
       "ABOUT_PISI": {
-        "TITLE": "Tentang PISI - Solusi Cloud HR PisiCloud",
+        "TITLE": "Tentang PISI - Solusi Cloud HR PISICloud",
         "DESCRIPTION": "Kenali PT. Pisi Mulia Informatika dan komitmen kami dalam menghadirkan sistem HR & payroll terpercaya dan inovatif."
       },
       "OUR_CUSTOMERS": {
-        "TITLE": "Klien Kami - Dipercaya oleh 100+ Perusahaan | PisiCloud",
-        "DESCRIPTION": "Lihat bagaimana berbagai perusahaan terkemuka mengoptimalkan tata kelola SDM dan payroll dengan PisiCloud."
+        "TITLE": "Klien Kami - Dipercaya oleh 100+ Perusahaan | PISICloud",
+        "DESCRIPTION": "Lihat bagaimana berbagai perusahaan terkemuka mengoptimalkan tata kelola SDM dan payroll dengan PISICloud."
       },
       "STRATEGY_IMPLEMENTATION": {
-        "TITLE": "Strategi Implementasi - Panduan Rollout HR | PisiCloud",
-        "DESCRIPTION": "Pelajari metodologi penerapan sistem HR & payroll PisiCloud yang teruji untuk transisi operasional yang mulus."
+        "TITLE": "Strategi Implementasi - Panduan Rollout HR | PISICloud",
+        "DESCRIPTION": "Pelajari metodologi penerapan sistem HR & payroll PISICloud yang teruji untuk transisi operasional yang mulus."
       },
       "SOFTWARE_IMPLEMENTATION": {
-        "TITLE": "Implementasi Perangkat Lunak - Transisi HR & Payroll Mulus | PisiCloud",
-        "DESCRIPTION": "Layanan implementasi perangkat lunak enterprise menyeluruh untuk PisiCloud HR. Jaminan nol kehilangan data, integrasi biometrik, dan pengujian paralel payroll."
+        "TITLE": "Implementasi Perangkat Lunak - Transisi HR & Payroll Mulus | PISICloud",
+        "DESCRIPTION": "Layanan implementasi perangkat lunak enterprise menyeluruh untuk PISICloud HR. Jaminan nol kehilangan data, integrasi biometrik, dan pengujian paralel payroll."
       },
       "CONTACT_US": {
-        "TITLE": "Hubungi Kami - Konsultasi & Jadwalkan Demo | PisiCloud",
-        "DESCRIPTION": "Hubungi tim sales dan dukungan PisiCloud untuk informasi produk, demo aplikasi, atau penawaran harga terbaik."
+        "TITLE": "Hubungi Kami - Konsultasi & Jadwalkan Demo | PISICloud",
+        "DESCRIPTION": "Hubungi tim sales dan dukungan PISICloud untuk informasi produk, demo aplikasi, atau penawaran harga terbaik."
       },
       "FEATURE": {
-        "TITLE": "Fitur Lengkap - Sistem HR & Payroll Terintegrasi | PisiCloud",
-        "DESCRIPTION": "Jelajahi seluruh modul unggulan PisiCloud mulai dari absensi, cuti, lembur, payroll, pajak tahunan, hingga rekrutmen."
+        "TITLE": "Fitur Lengkap - Sistem HR & Payroll Terintegrasi | PISICloud",
+        "DESCRIPTION": "Jelajahi seluruh modul unggulan PISICloud mulai dari absensi, cuti, lembur, payroll, pajak tahunan, hingga rekrutmen."
       },
       "TRAINING_IMPLEMENTATION": {
-        "TITLE": "Pelatihan & Re-Implementasi - PisiCloud",
+        "TITLE": "Pelatihan & Re-Implementasi - PISICloud",
         "DESCRIPTION": "Program Pelatihan & Re-Implementasi Software untuk membekali tim Anda dengan alat, sumber daya, dan wawasan guna mengoptimalkan kinerja software."
       },
       "CUSTOMIZE_MODULE": {
         "TITLE": "Modul Kustom - Solusi Modul HR Khusus Bisnis Anda | PISICloud",
-        "DESCRIPTION": "Layanan pengembangan modul perangkat lunak khusus PisiCloud yang disesuaikan dengan keunikan proses bisnis dan pertumbuhan perusahaan Anda."
+        "DESCRIPTION": "Layanan pengembangan modul perangkat lunak khusus PISICloud yang disesuaikan dengan keunikan proses bisnis dan pertumbuhan perusahaan Anda."
+      },
+      "NOT_FOUND": {
+        "TITLE": "404 - Halaman Tidak Ditemukan | PISICloud",
+        "DESCRIPTION": "Halaman yang Anda cari tidak dapat ditemukan."
       }
     }
   },
@@ -1060,7 +1064,7 @@
   "STRATEGY_IMPLEMENTATION": {
     "HERO": {
       "TITLE_PREFIX": "Strategi Implementasi ",
-      "TITLE_HIGHLIGHT": "PisiCloud",
+      "TITLE_HIGHLIGHT": "PISICloud",
       "DESCRIPTION": "Implementasi ERP membutuhkan koordinasi lintas divisi dan kedisiplinan tinggi. PISICloud menghadirkan metodologi terstruktur yang teruji sukses memandu transisi dari sistem manual ke ekosistem terintegrasi secara mulus tanpa hambatan.",
       "CTA_CONSULT": "Konsultasi Implementasi",
       "CTA_ROADMAP": "Pelajari Tahapan",
@@ -1179,10 +1183,10 @@
       "TITLE_PREFIX": "Layanan Menyeluruh ",
       "TITLE_HIGHLIGHT": "Implementasi Perangkat Lunak",
       "TITLE_SUFFIX": " untuk Perusahaan Berkembang",
-      "DESCRIPTION": "Transisi mulus dari spreadsheet manual dan sistem lawas ke platform HR dan payroll cloud terpadu PisiCloud. Spesialis implementasi tersertifikasi kami memastikan integritas data terjamin, tanpa gangguan operasional bisnis, dan pendampingan menyeluruh.",
+      "DESCRIPTION": "Transisi mulus dari spreadsheet manual dan sistem lawas ke platform HR dan payroll cloud terpadu PISICloud. Spesialis implementasi tersertifikasi kami memastikan integritas data terjamin, tanpa gangguan operasional bisnis, dan pendampingan menyeluruh.",
       "CTA_PRIMARY": "Konsultasi Implementasi",
       "CTA_SECONDARY": "Pelajari Metodologi",
-      "IMAGE_ALT": "Ilustrasi dashboard implementasi perangkat lunak dan sistem cloud HR PisiCloud"
+      "IMAGE_ALT": "Ilustrasi dashboard implementasi perangkat lunak dan sistem cloud HR PISICloud"
     },
     "PILLARS": {
       "TITLE_PREFIX": "Layanan Lengkap untuk ",
@@ -1242,7 +1246,7 @@
     },
     "GUARANTEES": {
       "TITLE_PREFIX": "Mengapa Perusahaan Mempercayakan ",
-      "TITLE_HIGHLIGHT": "Implementasi PisiCloud",
+      "TITLE_HIGHLIGHT": "Implementasi PISICloud",
       "TITLE_SUFFIX": "",
       "DESCRIPTION": "Kami memadukan pengalaman puluhan tahun di industri HR dengan rekayasa perangkat lunak modern untuk memastikan transisi sistem berjalan mudah.",
       "ITEMS": {
@@ -1273,5 +1277,14 @@
         "CTA_BUTTON": "Hubungi Spesialis Implementasi"
       }
     }
+  },
+  "NOT_FOUND": {
+    "TITLE_PREFIX": "Halaman ",
+    "TITLE_HIGHLIGHT": "tidak",
+    "TITLE_SUFFIX": " ditemukan.",
+    "DESCRIPTION": "Kami tidak dapat menemukan halaman yang Anda cari.",
+    "HOME_BUTTON": "Beranda",
+    "CONTACT_BUTTON": "Hubungi Kami",
+    "LOGO_ALT": "Logo PISICloud"
   }
 }

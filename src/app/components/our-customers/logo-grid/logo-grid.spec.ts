@@ -78,29 +78,20 @@ describe('CustomersLogoGrid', () => {
     expect(firstImg?.getAttribute('draggable')).toBe('false');
   });
 
-  it('should render clickable <a> cards with target="_blank" for companies with a website', () => {
-    const compiled = fixture.nativeElement as HTMLElement;
-    const linkCards = compiled.querySelectorAll('a[role="listitem"]');
-    expect(linkCards.length).toBe(40);
-
-    const firstLink = linkCards[0] as HTMLAnchorElement;
-    expect(firstLink.getAttribute('href')).toBeTruthy();
-    expect(firstLink.getAttribute('target')).toBe('_blank');
-    expect(firstLink.getAttribute('rel')).toBe('noopener noreferrer');
-  });
-
-  it('should render non-clickable <div> cards for companies without a website (like Bintan Lagoon Resort)', () => {
+  it('should render non-clickable <div> cards for all client logos without external links or redirects', () => {
     const compiled = fixture.nativeElement as HTMLElement;
     const allItems = compiled.querySelectorAll('[role="listitem"]');
-    const bintanCard = Array.from(allItems).find(
-      (item) => item.getAttribute('aria-label')?.includes('Bintan Lagoon Resort'),
-    );
+    expect(allItems.length).toBe(46);
 
-    expect(bintanCard).toBeTruthy();
-    expect(bintanCard?.tagName.toLowerCase()).toBe('div');
-    expect(bintanCard?.getAttribute('href')).toBeNull();
-    expect(bintanCard?.getAttribute('target')).toBeNull();
-    expect(bintanCard?.classList.contains('cursor-default')).toBe(true);
+    const linkCards = compiled.querySelectorAll('a[role="listitem"]');
+    expect(linkCards.length).toBe(0);
+
+    for (const item of Array.from(allItems)) {
+      expect(item.tagName.toLowerCase()).toBe('div');
+      expect(item.getAttribute('href')).toBeNull();
+      expect(item.getAttribute('target')).toBeNull();
+      expect(item.classList.contains('cursor-default')).toBe(true);
+    }
   });
 
   it('should render logos with full color on mobile and monochrome on desktop (md+)', () => {

@@ -20,4 +20,13 @@ describe('ContactInfo', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should render WhatsApp contact link and bootstrapWhatsapp icon', () => {
+    const compiled = fixture.nativeElement as HTMLElement;
+    const whatsappLink = compiled.querySelector('a[href*="wa.me/628117774744"]');
+    expect(whatsappLink).toBeTruthy();
+
+    const whatsappIcon = compiled.querySelector('ng-icon[name="bootstrapWhatsapp"]');
+    expect(whatsappIcon).toBeTruthy();
+  });
 });
